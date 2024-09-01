@@ -7,23 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DetailPage extends AppCompatActivity {
+public class History extends AppCompatActivity {
 
     Button buttonBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_page);
+        setContentView(R.layout.activity_history);
+
 
         buttonBack=findViewById(R.id.buttonBack);
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(DetailPage.this, MainActivity.class);
+                Intent i = new Intent(History.this, MainActivity.class);
                 startActivity(i);
             }
         });
+
+
     }
 }
