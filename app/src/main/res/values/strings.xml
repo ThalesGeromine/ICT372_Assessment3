@@ -1,10 +1,5 @@
 <resources>
     <string name="app_name">eCommerceICT372</string>
     
-    <string-array name="arrayMenu">
-        <item>Home</item>
-        <item>Register</item>
-        <item>Login</item>
-        <item>Cart</item>
-    </string-array>
+
 </resources>
